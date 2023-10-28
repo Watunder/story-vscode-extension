@@ -1,0 +1,32 @@
+{
+    "name": "story",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+    "icon": "images/icon.png",
+    "publisher": "watunder",
+    "contributes": {
+        "languages": [{
+            "id": "story",
+            "aliases": ["STORY"],
+            "extensions": [".story"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "story",
+            "scopeName": "source.story",
+            "path": "./syntaxes/story.plist"
+        }],
+        "snippets": [
+			{
+				"language": "story",
+				"path": "./snippets/story.json"
+			}
+		]
+    }
+}

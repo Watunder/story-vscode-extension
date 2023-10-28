@@ -1,0 +1,17 @@
+{
+  "region": {
+    "prefix": "@macro",
+    "body": [
+      "@macro",
+      "@endmacro"
+    ],
+    "description": "macro"
+  },
+  "endregion": {
+    "prefix": "@endmacro",
+    "body": [
+      "@endmacro"
+    ],
+    "description": "endmacro"
+  }
+}

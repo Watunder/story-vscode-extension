@@ -1,0 +1,18 @@
+{
+    "comments": {
+        // "lineComment": ,
+        // "blockComment": ,
+    },
+    "autoClosingPairs": [
+        { "open": "$", "close": "$" },
+    ],
+    "surroundingPairs": [
+        ["$", "$"],
+    ],
+    "folding": {
+        "markers": {
+            "start": "@macro",
+            "end": "@endmacro"
+        }
+    }
+}
